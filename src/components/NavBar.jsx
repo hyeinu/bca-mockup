@@ -40,9 +40,9 @@ export default class Navbar extends Component{
           </div>
           <div className="collapse navbar-collapse" id="myNav">
           <Tabs inkBarStyle={{ backgroundColor: '#c73350' }}>
-            <Tab style={{ backgroundColor: '#c73350' }} label="Who" />
-            <Tab style={{ backgroundColor: '#c73350' }} label="Why" />
-            <Tab style={{ backgroundColor: '#c73350' }} label="Donate" />
+            <Tab href="#who" style={{ backgroundColor: '#c73350' }} label="Who" />
+            <Tab href="#what" style={{ backgroundColor: '#c73350' }} label="Why" />
+            <Tab href="#donate" style={{ backgroundColor: '#c73350' }} label="Donate" />
             {/* <Tab label="onActive" /> */}
           </Tabs>
           {/* <ul className="nav navbar-nav">
