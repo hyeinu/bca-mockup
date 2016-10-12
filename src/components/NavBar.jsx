@@ -1,15 +1,6 @@
 import React, { Component } from 'react';
 import { Tabs, Tab, Slider } from 'material-ui';
 
-const styles = {
-  headline: {
-    fontSize: 24,
-    paddingTop: 16,
-    marginBottom: 12,
-    fontWeight: 400,
-  },
-};
-
 export default class Navbar extends Component{
   constructor(props){
     super(props)
@@ -45,13 +36,18 @@ export default class Navbar extends Component{
             <span className="icon-bar"></span>
             <span className="icon-bar"></span>
             </button>
-            <a className="navbar-brand" href="#">Brand</a>
+            {/* <a className="navbar-brand" href="#">Brand</a> */}
           </div>
           <div className="collapse navbar-collapse" id="myNav">
-          <ul className="nav navbar-nav">
+          <Tabs inkBarStyle={{ backgroundColor: '#c73350' }}>
+            <Tab style={{ backgroundColor: '#c73350' }} label="Item One" />
+            <Tab style={{ backgroundColor: '#c73350' }} label="Item Two" />
+            {/* <Tab label="onActive" /> */}
+          </Tabs>
+          {/* <ul className="nav navbar-nav">
             <li><a href="#">Link</a></li>
             <li><a href="#">Link</a></li>
-          </ul>
+          </ul> */}
           </div>
         </div>
       </nav>
