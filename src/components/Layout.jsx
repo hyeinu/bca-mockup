@@ -7,7 +7,7 @@ export default class Layout extends Component{
   render(){
     return(
       <div>
-        <div className="header"></div>
+        <Header />
         <NavBar />
         <div className="main" id="mainTarget"></div>
         <div className="main">

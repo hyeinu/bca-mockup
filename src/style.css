@@ -1,12 +1,10 @@
-.splash{
-  background-image: url('http://i.imgur.com/fxVVh2L.jpg');
-  background-size: cover;
-  height: 85vh;
-}
-
-.splashSize{
-  height: 100vh;
-  border: 5px solid black;
+.splashText{
+  font-family: 'Permanent Marker', cursive;
+  font-size: 18vh;
+  margin-top: 25vh;
+  transform: rotate(-5deg);
+  color: white;
+  text-shadow: 2px 2px 0 rgba(0,0,0,.4);
 }
 
 html, body {

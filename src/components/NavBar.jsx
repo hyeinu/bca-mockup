@@ -1,4 +1,14 @@
 import React, { Component } from 'react';
+import { Tabs, Tab, Slider } from 'material-ui';
+
+const styles = {
+  headline: {
+    fontSize: 24,
+    paddingTop: 16,
+    marginBottom: 12,
+    fontWeight: 400,
+  },
+};
 
 export default class Navbar extends Component{
   constructor(props){
