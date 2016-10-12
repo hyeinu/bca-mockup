@@ -1,0 +1,56 @@
+.splash{
+  background-image: url('http://i.imgur.com/fxVVh2L.jpg');
+  background-size: cover;
+  height: 85vh;
+}
+
+.splashSize{
+  height: 100vh;
+  border: 5px solid black;
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  padding-top: 85vh;
+}
+
+.test{
+  background-color: pink;
+}
+
+.header {
+  height: 85vh;
+  padding-top: 50px;
+  background-image: url('http://i.imgur.com/fxVVh2L.jpg');
+  background-size: cover;
+}
+
+.main-nav,
+.main {
+  position: relative;
+}
+
+.main-nav {
+  background: #fff;
+  z-index: 150;
+  margin-bottom: -80px;
+
+}
+
+.main{
+  background: #fff;
+  margin-top: 12vh;
+  margin-bottom: -80px;
+}
+
+.header,
+.main-nav-scrolled {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  box-shadow: 0 2px 3px rgba(0,0,0,.4);
+}
