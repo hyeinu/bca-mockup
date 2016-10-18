@@ -39,16 +39,11 @@ export default class Navbar extends Component{
             {/* <a className="navbar-brand" href="#">Brand</a> */}
           </div>
           <div className="collapse navbar-collapse" id="myNav">
-          <Tabs inkBarStyle={{ backgroundColor: '#c73350' }}>
-            <Tab href="#who" style={{ backgroundColor: '#c73350' }} label="Who" />
-            <Tab href="#what" style={{ backgroundColor: '#c73350' }} label="Why" />
-            <Tab href="#donate" style={{ backgroundColor: '#c73350' }} label="Donate" />
-            {/* <Tab label="onActive" /> */}
-          </Tabs>
-          {/* <ul className="nav navbar-nav">
-            <li><a href="#">Link</a></li>
-            <li><a href="#">Link</a></li>
-          </ul> */}
+          <ul className="nav nav-justified">
+            <li><a href="#who">Who</a></li>
+            <li><a href="#why">Why</a></li>
+            <li><a href="#donate">Donate</a></li>
+          </ul>
           </div>
         </div>
       </nav>

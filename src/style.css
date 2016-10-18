@@ -13,7 +13,7 @@ html, body {
 
 body {
   margin: 0;
-  padding-top: 85vh;
+  padding-top: 90vh;
 }
 
 .test{
@@ -21,9 +21,9 @@ body {
 }
 
 .header {
-  height: 85vh;
+  height: 100vh;
   padding-top: 50px;
-  background-image: url('http://i.imgur.com/fxVVh2L.jpg');
+  background: url('http://i.imgur.com/fxVVh2L.jpg') no-repeat center center fixed;
   background-size: cover;
 }
 
@@ -33,7 +33,9 @@ body {
 }
 
 .main-nav {
-  background: #c73350;
+  background: white;
+  transition: background 1s;
+  border: 0;
   z-index: 150;
   margin-bottom: -80px;
 }
@@ -44,10 +46,60 @@ body {
   margin-bottom: -80px;
 }
 
+.main-nav a {
+  color: #c73350;
+}
+
+.main-nav-scrolled a {
+  color: white;
+}
+.nav > li > a:hover, .nav > li > a:focus {
+  background-color: transparent;
+  text-decoration: none;
+}
+
+
+.main-nav-scrolled {
+  background: #c73350;
+  transition: background 1s;
+}
+
 .header,
 .main-nav-scrolled {
   position: fixed;
   width: 100%;
   top: 0;
   box-shadow: 0 2px 3px rgba(0,0,0,.4);
+}
+
+.sectionPad{
+  padding-top: 15vh;
+}
+
+.btn{
+  border: 5px solid white;
+  background-color: rgba(0,0,0,.4) !important;
+  border-radius: 50px;
+  color: white;
+  font-size: 25px;
+  width: 150px;
+}
+
+.video-container {
+	position:relative;
+	padding-bottom:56.25%;
+	padding-top:30px;
+	height:0;
+	overflow:hidden;
+}
+
+.video-container iframe, .video-container object, .video-container embed {
+	position:absolute;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+}
+.container {
+  padding-bottom: 50px;
 }
